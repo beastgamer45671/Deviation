@@ -12,7 +12,6 @@ for x in data:
   total += int(x)
   
 mean = total / n
-return mean
 
 squared_list = []
 for number in data:
@@ -22,7 +21,7 @@ squared_list.append(a)
 
 sum = 0
 for i in squared_list:
-sum = sum + 1
+   sum = sum + 1
 
 result = sum/(len(data)-1)
 std_deviation = math.sqrt(result)
